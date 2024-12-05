@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background: radial-gradient(closest-side, rgb(255, 255, 255), rgb(0, 0, 0));
+    color: black;
+    padding: 10px;
+    border-radius: -50px;
+    margin: 1px auto;
+    width: 500px;
+    text-shadow: 1px 1px 1px rgb(211, 189, 232),
+    -1px 1px 1px rgb(211, 189, 232),
+    -1px -1px 0 rgb(211, 189, 232),
+    1px -1px 0 rgb(211, 189, 232);
+}
+
+h2{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black,
+    -1px 1px 1px black,
+    -1px -1px 0 black,
+    1px -1px 0 black;
+    padding-top: 10px;
+}
+
+p{
+    font-weight: bold;
+    padding: 2px;
+    background-color: blueviolet;
+    margin-bottom: 2px;
+    border-radius: 30px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+
+span{
+    font-weight: bold;
+    border: 1px dotted;
+    padding: 2px 15px;
+
+}
+
+div{
+    border-bottom: 1px dashed black;
+    border-width: 1px;
+    width: 400px auto;
+    margin-bottom: 2px auto;
+
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+ul{
+
+   margin-bottom: 3px auto;
+}
+
+.topo{
+    background:linear-gradient(to bottom, black 40%, blueviolet, white);
+    border: none;
+    height: 150px;
+  
+   
+}
+
+.titulo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
